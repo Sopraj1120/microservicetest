@@ -10,5 +10,5 @@ namespace Product.Database
         }
         public DbSet<Products> Products { get; set; }
     }
-    
+
 }

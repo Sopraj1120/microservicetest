@@ -168,3 +168,4 @@ C:\Users\User\OneDrive\Desktop\Sop practice\New folder\Order\bin\Debug\net8.0\ru
 C:\Users\User\OneDrive\Desktop\Sop practice\New folder\Order\bin\Debug\net8.0\tr\FSharp.Core.resources.dll
 C:\Users\User\OneDrive\Desktop\Sop practice\New folder\Order\bin\Debug\net8.0\zh-Hans\FSharp.Core.resources.dll
 C:\Users\User\OneDrive\Desktop\Sop practice\New folder\Order\bin\Debug\net8.0\zh-Hant\FSharp.Core.resources.dll
+C:\Users\User\OneDrive\Desktop\Sop practice\New folder\Order\obj\Debug\net8.0\Order.sourcelink.json
