@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "Product.Controllers.ProductController",
+    "Method": "AddProduct",
+    "RelativePath": "api/Product/Add-Product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productRequestDtos",
+        "Type": "Product.Dtos.RequestDtos.ProductRequestDtos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Product.Controllers.ProductController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/Product/Get-All-Products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Product.Controllers.ProductController",
+    "Method": "GetProductById",
+    "RelativePath": "api/Product/Get-Product-By-Id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

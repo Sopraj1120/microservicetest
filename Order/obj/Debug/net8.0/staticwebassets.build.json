@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "FBtDqr0ZB0/clR9IY1kCJoc+cQKZA36pRuyoVDT3kNI=",
+  "Source": "Order",
+  "BasePath": "_content/Order",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\Desktop\\Sop practice\\New folder\\Product\\Product.csproj",
+      "Version": 2,
+      "Source": "Product",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
