@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product", "Product\Product.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order", "Order\Order.csproj", "{5E7956C3-10F6-4004-AAB1-E2A73DE0F6D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateWay", "ApiGateWay\ApiGateWay.csproj", "{C4A5F888-0BCF-4F26-B01D-138601B456BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5E7956C3-10F6-4004-AAB1-E2A73DE0F6D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E7956C3-10F6-4004-AAB1-E2A73DE0F6D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E7956C3-10F6-4004-AAB1-E2A73DE0F6D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A5F888-0BCF-4F26-B01D-138601B456BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A5F888-0BCF-4F26-B01D-138601B456BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A5F888-0BCF-4F26-B01D-138601B456BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A5F888-0BCF-4F26-B01D-138601B456BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

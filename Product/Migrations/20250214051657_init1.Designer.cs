@@ -12,8 +12,8 @@ using Product.Database;
 namespace Product.Migrations
 {
     [DbContext(typeof(ProductDbContext))]
-    [Migration("20250214040246_init2")]
-    partial class init2
+    [Migration("20250214051657_init1")]
+    partial class init1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

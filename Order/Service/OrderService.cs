@@ -18,13 +18,23 @@ namespace Order.Service
           
         }
 
-        public async Task<OrderResponceDtos> AddOrder(OrderRequestDtos orderRequestDtos, Guid ProductId)
-        {
+       public async Task<OrderResponceDtos> AddOrder(OrderRequestDtos orderRequestDtos, Guid ProductId)
+{
+            var product = await _productRepository.GetProductById(ProductId);
+            if (product == null)
+            {
+                throw new KeyNotFoundException("Product not found! Cannot create order.");
+            }
+
             var order = orderRequestDtos.Adapt<Order.Entity.Order>();
-            var data = await _orderrepository.AddOrder(order).ConfigureAwait(false);
-            var res = data.Adapt<OrderResponceDtos>();
-            return res;
-        }
+    order.ProductId = ProductId;
+    order.TotalPrice = order.Quantity * product.Price; // Calculate total price
+
+    var data = await _orderrepository.AddOrder(order).ConfigureAwait(false);
+    var res = data.Adapt<OrderResponceDtos>();
+    return res;
+}
+
 
         public async Task<OrderResponceDtos> GetAllOrders()
         {

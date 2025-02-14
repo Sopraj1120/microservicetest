@@ -12,7 +12,7 @@ using Product.Database;
 namespace Product.Migrations
 {
     [DbContext(typeof(ProductDbContext))]
-    [Migration("20250213120611_init")]
+    [Migration("20250214051604_init")]
     partial class init
     {
         /// <inheritdoc />
